@@ -1,0 +1,25 @@
+Lista lateral 
+
+.listaservicos {
+    font-size: 1.5vw;
+    margin-bottom: 15px;
+    vertical-align: baseline;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 460px;
+    margin-right: 10px;
+}
+
+.listaservicos 
+    .servlist {
+    border-top: solid red 2px;
+    width: 200px;
+    margin: 20px;
+}
+
+.listaservicos
+    #serv {
+    position: relative;
+    bottom: -5px;
+    border-left: 20px;
+}

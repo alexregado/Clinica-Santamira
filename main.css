@@ -1,0 +1,566 @@
+/* Página Principal */
+
+@font-face {
+    font-family: convergence;
+    src: url(font/rax5HiePvdgXPmmMHcIPYShdu08.woff2);
+  }
+
+html, body {
+    margin-top: 14%;
+    margin: 0;
+    font-family: convergence !important;
+    background-color: rgba(255, 255, 255, 0.5); 
+    background-image: url(bg1.svg), 0.7;
+    min-height: 100%;
+    max-width: 100%;
+    min-height: stretch;
+
+}
+
+body {
+    margin-top: 0;
+    min-height: auto;
+}
+#start14 {
+    margin-top: 14%;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 306px;
+    height: 96px;
+    position: fixed;
+    z-index: 19;
+    top: 7px;
+    left: 17px;
+}
+
+.lista1 { 
+    text-decoration: none;
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+}
+
+#rectangle {
+    width: 100%;
+    height: 14%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.959);
+    margin-bottom: solid 1px red;
+    position: fixed;
+    z-index: 19282;
+  }
+
+nav ul {
+    position: fixed;
+    z-index: 19283;
+    top: 19px;
+    left: 142px;
+    /*_____________*/
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: convergence;
+    font-size: 1.75vw;
+    border-style: dashed;
+    border: 2px red;
+    margin: 0;
+    font-weight: 900;
+
+}
+
+nav ul:first-child {
+    background-color: none;
+    color: none;
+}
+
+nav ul li {
+    background-color: rgba(3, 3, 3, 0.425);
+    color: white;
+    border-radius: 40px;
+    width: 20%;
+    height: 20%;
+    margin: 3%;
+    list-style-type: none;
+}
+
+.lista1 {
+    padding: 6px;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.lista1:hover {
+    color: white;
+    background-color: rgba(255, 34, 34, 0.301);
+    border: 5px red;
+    text-decoration: none;
+    border-radius: 40px;
+}   
+
+nav b {
+    margin-right: 30px; 
+    margin-left: 30px;
+}
+
+nav:first-child {
+    margin-right: 50px; 
+    margin-left: 50px;
+}
+
+.frase {
+    color: rgb(8, 0, 126);
+    text-align: center;
+    font-family: convergence;
+    font-size: 35px;
+    text-shadow: .2em .2em .3em silver;
+}
+
+/*
+button {
+    font-family: convergence;
+    display: block;
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    padding: 15px;
+    background-color: rgba(255, 34, 34, 0.445);
+    border-radius: 45px;
+    margin: 0;
+}
+*/
+
+.text1 , .text2 , .text3 {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 30%;
+    margin: 3%;
+}
+
+.img1, .img2, .img3 {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+
+.text2 {    
+    text-align: left;
+}
+.text2 
+    .img2 {
+    float: right;
+}
+
+a { 
+    color: inherit; 
+} 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+    text-align: left;  
+    border-top: 4px solid rgba(255, 34, 34, 0.781); 
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(70, 70, 70, 0.248);
+} 
+
+footer p {
+    margin: 0;
+    line-height: 20px;
+}
+
+footer h4 {
+    font-size: 15px;
+    margin: 0;
+    line-height: 20px;
+    margin-bottom: 5px;
+
+}
+
+.alignfooter {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.alignfooter
+    .morada, .contactos, .footerimg {
+    border: 0px;
+    margin: 0px 0px;
+    line-height: 0.5;
+    width: 30%;
+    margin-top: 0; 
+}
+
+.contactos {
+    line-height: 0.5;
+}
+
+footer img {  
+    display: row;
+    height: 40px; 
+    margin-left: 10px;  
+    margin-right: 10px; 
+    min-height: auto;
+    min-width: auto;
+}
+.footerimg {
+    width: 40%;
+}
+
+footer h4 {
+    margin-top: 8px;
+}
+
+footer h5 {
+    top: -20px;
+}
+
+footer h6 {
+    margin: 0;
+}
+
+.footercopy {
+    font-size: 20px;
+    width: 100%;
+    height: 22px;
+    text-align: center;
+    background-color: grey;
+}
+
+
+
+
+
+____________________________________________________________________
+/* Página 2 - Serviços*/
+
+
+
+
+.arrow {
+    width: 40px; 
+    height: 40px;
+    margin-top: 5px;
+}
+
+.listaservicos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.listaservicos 
+    .servlist {
+    text-align: center;
+    margin: 20px;
+}
+
+.simg {
+    width: 348px;
+    height: 233px;
+    border-radius: 10px;
+}
+
+#serv {
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.textserv {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.simg {
+    width: 350px;
+}
+
+.servlist:hover {
+    text-decoration: none;
+}
+
+#serv:hover {
+    text-decoration: none;
+}
+____________________________________________________________________
+/* Páginas específicas dos serviços */
+
+.listaservicos2 {
+    font-size: 1.5vw;
+    margin-bottom: 15px;
+    vertical-align: baseline;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 460px;
+    margin-right: 10px;
+    }
+    
+.listaservicos2 
+    .servlist2 {
+        border-top: solid red 2px;
+        width: 200px;
+        box-sizing: content-box;
+        height: 50px;
+    }
+    
+.listaservicos2
+    #serv2 {
+        position: relative;
+        bottom: -5px;
+        border-left: 20px;
+        color: rgb(7, 255, 69)33, 17, 17);
+}
+
+.listaservicos2:hover 
+        .servlist2:hover
+            #serv2:hover {
+    text-decoration: none;
+    color: rgba(255, 31, 31, 0.61);
+}
+
+.servlist2:hover {
+    background-color: lightblue;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*
+#sidebox1 {
+grid-row-start: 2;
+grid-column-start: 2;
+margin-left: 20px;
+}
+
+.serv_bkimg {
+    width: 80%;
+    height: 200px;
+    opacity: 0.4;
+    margin-left: 20px;
+}
+
+.serv_name {
+    position: relative;
+
+}
+*/
+
+.servlist2 img {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/*______________________________________________________
+/* Odontodontia */
+
+.serv_bkimg {
+    width: 300px;
+    position: static;
+    opacity: 0.44;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-top: -10px;
+    font-size: 32px;
+}
+
+#sidebox1 {
+    margin: 0px 20px 20px 20px;
+    text-align: justify;
+    margin-right: 55px;
+}
+
+
+
+/* _________________________________________________________
+Página Contactos */
+
+.text_contactos, .whatsapp {
+    text-align: center;
+    font-size: 19px;
+    line-height: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+.aligncontacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.telefone, .telemovel, .email, .whatsapp2 {
+    font-size: 1.7vw;
+    min-width: fit-content;
+    text-align: center;
+    border: solid rgb(100, 100, 100) 2px;
+    padding: 5px;
+    margin: 20px;
+    height: 45px;
+    border-radius: 200px;
+}
+
+.telefone {
+    padding: 5px;
+    
+}
+
+.telefone:hover, .telemovel:hover, .email:hover {
+    text-decoration-style: none;
+    text-decoration-line: none !important;
+    background-color: rgba(70, 70, 70, 0.248);
+
+
+}
+
+.contactslink:hover {
+    text-decoration-line: none !important;
+    color: rgba(255, 0, 0, 0.637) !important;
+}
+
+.whatsapp2 {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 90px;
+    margin-bottom: 11px;
+}
+
+.location2 {
+    text-align: center;
+}
+
+.contactslink {
+    padding: 5px;
+    color: black;
+}
+
+.title_orto
+
+
+
+/* __________________________________________________________________ 
+Página Sobre Nós */
+
+.teamtitle34 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.teamtitle34 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.teamtitle2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.sonia {
+    margin-right: 20px;
+    margin-left: 5px;
+    width: 500px;
+}
+
+.equipa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.equipa2 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gallery {   
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+
+.mySlides {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid rgb(32, 71, 178) 2px;
+
+}
+
+.bright, .bleft {
+    width: 3%;
+    height: 4%;  
+    color: rgb(255, 40, 40);
+    background-color: rgb(32, 71, 178);
+}
+
+.img_buttons {
+    
+} 
+.seg1 {
+    width: 904px;
+}
+
+.seg2 {
+    width: 400px;
+}
+
+.seguros {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.seg23 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
