@@ -173,13 +173,14 @@ a {
 } 
 
 footer {
+    position: fixed;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     font-size: 100%;
     text-align: left;  
     border-top: 4px solid rgba(255, 34, 34, 0.781); 
     min-width: 100%;
-    min-height: 100%;
     background-color: rgba(70, 70, 70, 0.248);
 } 
 
