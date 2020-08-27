@@ -225,7 +225,15 @@ a {
     }
 
     #rectangle {
-        height: 89px;
+        max-height: 80px;
+    }
+    
+    .text {
+    font-size: 10px;
+    }
+    
+    footer h4 {
+    font-size: 15px;
     }
 }
 
