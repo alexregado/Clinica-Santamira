@@ -227,6 +227,14 @@ a {
     #rectangle {
         max-height: 80px;
     }
+    
+    p {
+    font-size: 10px;
+    }
+    
+    h4 {
+    font-size: 15px;
+    }
 }
 
 footer {
