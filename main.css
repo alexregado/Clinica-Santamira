@@ -225,7 +225,7 @@ a {
     }
 
     #rectangle {
-        height: 89px;
+        max-height: 80px;
     }
 }
 
