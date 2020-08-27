@@ -228,11 +228,11 @@ a {
         max-height: 80px;
     }
     
-    p {
+    .text {
     font-size: 10px;
     }
     
-    h4 {
+    footer h4 {
     font-size: 15px;
     }
 }
