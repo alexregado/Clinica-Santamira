@@ -60,7 +60,6 @@ nav ul {
     z-index: 19283;
     top: 19px;
     left: 142px;
-    /*_____________*/
     width: 78%;
     display: flex;
     flex-direction: row;
@@ -249,8 +248,10 @@ footer {
 } 
 
 .footer_img_sm {
-    max-width: 25px;
+    display: flex;
+    flex-direction: row;
 }
+
 footer p {
     margin: 0;
     line-height: 20px;
@@ -629,3 +630,5 @@ Página Sobre Nós */
     margin-bottom: 30px;
     margin-top: 80px;
 }
+
+
