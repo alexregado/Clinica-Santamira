@@ -188,6 +188,11 @@ a {
         background-color: rgba(70, 70, 70, 0.248);
     }
 
+    footer h4, footer p {
+        font-size: 13px;
+        font-weight: 900;
+    }
+
     nav ul {
         position: fixed;
         z-index: 19283;
@@ -288,7 +293,7 @@ footer h4 {
 
 footer img {  
     display: row;
-    width: 9%; 
+    width: 12%; 
     height: auto;
     margin-left: 2%;  
     margin-right: 2%; 
