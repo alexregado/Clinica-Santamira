@@ -241,6 +241,13 @@ a {
     footer h6 {
     font-size: 9px;
     }
+
+    footer img {
+    width: 14%;
+    height: auto;
+    margin-left: 7%;
+    margin-right: 2%;
+    }
 }
 
 footer {
