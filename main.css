@@ -513,7 +513,7 @@ Página Contactos */
 }
 
 .telefone, .telemovel, .email, .whatsapp2 {
-    font-size: 1.7vw;
+    font-size: 15px;
     min-width: fit-content;
     text-align: center;
     border: solid rgb(100, 100, 100) 2px;
