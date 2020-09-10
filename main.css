@@ -248,6 +248,15 @@ a {
     margin-left: 7%;
     margin-right: 2%;
     }
+
+    .telefone, .email , .telemovel {
+    width: 145px;
+    margin: auto;
+    }
+
+    .telemovel {
+        margin-bottom: 20px;
+    }
 }
 
 footer {
