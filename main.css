@@ -193,10 +193,6 @@ a {
         font-weight: 900;
     }
 
-    .morada, .contactos {
-        width: 0%;
-    }
-    
     nav ul {
         position: fixed;
         z-index: 19283;
