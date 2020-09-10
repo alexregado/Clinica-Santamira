@@ -181,7 +181,6 @@ a {
         display: flex;
         flex-direction: column;
         overflow: hidden;
-        font-size: 75%;
         text-align: left;  
         border-top: 4px solid rgba(255, 34, 34, 0.781); 
         min-width: 100%;
