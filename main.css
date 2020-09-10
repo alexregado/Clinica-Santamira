@@ -237,6 +237,10 @@ a {
     footer h4 {
     font-size: 13px;
     }
+
+    footer h6 {
+    font-size: 9px;
+    }
 }
 
 footer {
@@ -286,6 +290,7 @@ footer h4 {
 
 .contactos {
     line-height: 0.5;
+    margin-left: 30px;
 }
 
 footer img {  
