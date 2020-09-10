@@ -176,7 +176,7 @@ a {
     color: inherit; 
 } 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
     footer {
         display: flex;
         flex-direction: column;
@@ -227,7 +227,7 @@ a {
     }
 
     #rectangle {
-        max-height: 80px;
+        max-height: 63px;
     }
     
     .text {
