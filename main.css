@@ -188,9 +188,8 @@ a {
         background-color: rgba(70, 70, 70, 0.248);
     }
 
-    footer h4, footer p {
-        font-size: 13px;
-        font-weight: 900;
+    footer p {
+        font-size: 10px;
     }
 
     nav ul {
@@ -237,7 +236,7 @@ a {
     }
     
     footer h4 {
-    font-size: 15px;
+    font-size: 13px;
     }
 }
 
