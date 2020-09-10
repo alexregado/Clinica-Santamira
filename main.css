@@ -288,11 +288,10 @@ footer h4 {
 
 footer img {  
     display: row;
-    height: 40px; 
-    margin-left: 10px;  
-    margin-right: 10px; 
-    min-height: auto;
-    min-width: auto;
+    width: 9%; 
+    height: auto;
+    margin-left: 2%;  
+    margin-right: 2%; 
 }
 .footerimg {
     width: 40%;
