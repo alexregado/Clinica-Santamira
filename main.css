@@ -243,8 +243,6 @@ a {
     }
 
     footer img {
-    width: 14%;
-    height: auto;
     margin-left: 7%;
     margin-right: 2%;
     }
@@ -311,7 +309,7 @@ footer h4 {
 
 footer img {  
     display: row;
-    width: 12%; 
+    max-width: 42px;
     height: auto;
     margin-left: 2%;  
     margin-right: 2%; 
