@@ -259,7 +259,7 @@ a {
     .aligncontacts {
     display: flex;
     flex-direction: column;
-    max-width: fit-content;
+    min-width: fit-content;
     margin: auto;
     }
 
@@ -529,7 +529,8 @@ Página Contactos */
     text-align: center;
     border: solid rgb(100, 100, 100) 2px;
     padding: 5px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 45px;
     border-radius: 200px;
 }
