@@ -261,6 +261,10 @@ a {
     max-width: fit-content;
     margin: auto;
     }
+
+    .text_contactos {
+    margin-top: 130px;
+    }
 }
 
 footer {
