@@ -176,7 +176,7 @@ a {
     color: inherit; 
 } 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     footer {
         display: flex;
         flex-direction: column;
@@ -255,6 +255,12 @@ a {
     .telemovel {
         margin-bottom: 20px;
     }
+
+    .aligncontacts {
+    flex-direction: column;
+    max-width: fit-content;
+    margin: auto;
+    }
 }
 
 footer {
@@ -268,10 +274,6 @@ footer {
     background-color: rgba(70, 70, 70, 0.248);
 } 
 
-.footer_img_sm {
-   /* display: flex;
-    flex-direction: row; */
-}
 
 footer p {
     margin: 0;
