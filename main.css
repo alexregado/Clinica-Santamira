@@ -515,11 +515,12 @@ Página Contactos */
     margin-top: 121px;
 }
 
-.aligncontacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+@media screen and (min-width: 800px) {
+    .aligncontacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 .telefone, .telemovel, .email, .whatsapp2 {
