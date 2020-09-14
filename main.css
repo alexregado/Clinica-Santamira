@@ -530,14 +530,12 @@ Página Contactos */
     .equipa1 {
         display: flex;
         flex-direction: row;
-        align-items: center;
     }
     
     .equipa2 {
         margin-top: 80px;
         display: flex;
         flex-direction: row;
-        align-items: center;
     }
 }
 
@@ -626,10 +624,14 @@ Página Sobre Nós */
     margin-right: 20px;
     margin-left: 5px;
     width: 400px;
+    height: 400px;
+    margin-right: 20px;
 }
 
 .marlon {
     width: 400px;
+    height: 400px;
+    margin-right: 20px;
 }
 
 .equipa1 {
