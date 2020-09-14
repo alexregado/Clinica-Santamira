@@ -339,6 +339,7 @@ footer h5 {
 }
 
 footer h6 {
+    font-weight: 100;
     margin: 0;
 }
 
