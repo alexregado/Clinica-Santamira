@@ -210,7 +210,7 @@ a {
     }
 
     nav ul li {
-        background-color: rgba(3, 3, 3, 0.425);
+    background-color: rgba(3, 3, 3, 0.425);
     color: white;
     border-radius: 40px;
     width: 20%;
@@ -236,7 +236,7 @@ a {
     
     footer h4 , footer p {
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 100 !important;
     }
 
     footer h6 {
@@ -288,6 +288,7 @@ footer p {
 
 footer h4 {
     font-size: 13px;
+    font-weight: 100 !important;
     margin: 0;
     line-height: 20px;
     margin-bottom: 5px;
