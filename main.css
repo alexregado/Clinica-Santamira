@@ -526,6 +526,19 @@ Página Contactos */
         flex-direction: row;
         justify-content: center;
     }
+
+    .equipa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .equipa2 {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
 
 .telefone, .telemovel, .email, .whatsapp2 {
@@ -612,21 +625,21 @@ Página Sobre Nós */
 .sonia {
     margin-right: 20px;
     margin-left: 5px;
-    width: 500px;
+    width: 400px;
 }
 
-.equipa {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.marlon {
+    width: 400px;
+}
+
+/* .equipa {
+
 }
 
 .equipa2 {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
 }
+*/
 
 .gallery {   
     text-align: center; 
