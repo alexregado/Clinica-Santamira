@@ -205,8 +205,10 @@ a {
         font-size: 1.75vw;
         border-style: dashed;
         border: 2px red;
-        margin: 0;
         font-weight: 900;
+        margin: 0;
+        margin-left: 25px;
+        margin-top: -15px;
     }
 
     nav ul li {
@@ -220,7 +222,7 @@ a {
     }
 
     nav ul li img {
-        width: 40%;
+        max-width: 36%;
         height: auto;
         left: -5px;
         top: -1px;
@@ -536,6 +538,15 @@ Página Contactos */
         margin-top: 80px;
         display: flex;
         flex-direction: row;
+        margin-top: 136px;
+    }
+
+    .marlon, .sonia {
+        margin-bottom: 30px;
+    }
+
+    nav ul li img {
+        margin-right: 298px;
     }
 }
 
