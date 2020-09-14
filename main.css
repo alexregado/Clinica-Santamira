@@ -269,7 +269,7 @@ a {
 }
 
 footer {
-    position: fixed;
+    position: sticky;
     display: flex;
     flex-direction: column;
     overflow: hidden;
