@@ -55,6 +55,8 @@ header img {
     z-index: 19282;
   }
 
+  @media screen and (max-width: 800px) {
+
 nav ul {
     position: fixed;
     z-index: 19283;
