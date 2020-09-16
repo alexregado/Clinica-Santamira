@@ -159,6 +159,10 @@ button {
     margin-top: 155px;
 }
 
+.text3 {
+    margin-bottom: 117px;
+}
+
 .img1, .img2, .img3 {
     margin-left: 8px;
     margin-right: 8px;
@@ -269,6 +273,24 @@ a {
     margin-top: 130px;
     }
 }
+
+.horario:first-child {
+    color: rgb(8, 0, 126);
+    text-align: center;
+    font-family: convergence;
+    font-size: 35px;
+    text-shadow: 0.2em 0.2em 0.3em silver;
+}
+.clock_img {
+    width: 100px;
+    height: auto;
+}
+
+.flex_horario {
+    display: flex;
+    flex-direction: row;
+}
+
 
 footer {
     position: sticky;
@@ -700,10 +722,9 @@ Página Sobre Nós */
 }
 
 .seg23 {
+    color: rgb(8, 0, 126);
     text-align: center;
-    font-size: 38px;
-    font-weight: 800;
-    margin-bottom: 30px;
-    margin-top: 80px;
-}
+    font-family: convergence;
+    font-size: 35px;
+    text-shadow: 0.2em 0.2em 0.3em silver;
 }
