@@ -153,6 +153,7 @@ button {
 
 .text1 , .text2 , .text3 {
     text-align: center;
+    font-weight: 15px;
     width: 95%;
     height: 30%;
     margin: 3%;
@@ -165,9 +166,14 @@ button {
 
 .img1, .img2, .img3 {
     width: 510px;
+    max-width: 100%;
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 8px;
+}
+
+.fundo {
+    max-width: 100%;
 }
 
 .text2 {    
@@ -286,6 +292,7 @@ a {
 
 .clock_img {
     width: 119px;
+    height: auto;
     margin-right: 59px;
     margin-left: 30px;
 }
@@ -294,6 +301,7 @@ a {
     text-align: center;
     font-size: 14px;
     width: 504px;
+    max-width: 100%;
     margin: auto;
 }
 
