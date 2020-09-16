@@ -134,6 +134,7 @@ nav:first-child {
     font-family: convergence;
     font-size: 35px;
     text-shadow: .2em .2em .3em silver;
+    margin-top: 40px;
 }
 
 /*
@@ -151,12 +152,11 @@ button {
 */
 
 .text1 , .text2 , .text3 {
-    display: flex;
-    align-items: center;
+    text-align: center;
     width: 95%;
     height: 30%;
     margin: 3%;
-    margin-top: 155px;
+    margin-top: 90px;
 }
 
 .text3 {
@@ -164,6 +164,7 @@ button {
 }
 
 .img1, .img2, .img3 {
+    width: 510px;
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 8px;
@@ -172,9 +173,10 @@ button {
 .text2 {    
     text-align: left;
 }
+
 .text2 
     .img2 {
-    float: right;
+    float: none;
 }
 
 a { 
@@ -566,6 +568,17 @@ Página Contactos */
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .text1 , .text2 , .text3 {
+        display: flex;
+        text-align: initial;
+        align-items: center;
+    }
+
+    .text2 
+        .img2 {
+            float: right;
     }
 
     .equipa1 {
