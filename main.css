@@ -177,10 +177,6 @@ button {
     max-width: 100%;
 }
 
-.text2 {    
-    text-align: left;
-}
-
 .text2 
     .img2 {
     float: none;
@@ -244,8 +240,8 @@ a {
         max-height: 63px;
     }
     
-    .text {
-    font-size: 10px;
+    .text, .flex_horario {
+    font-size: 18px;
     }
     
     footer h4 , footer p {
@@ -292,8 +288,9 @@ a {
 }
 
 .clock_img {
-    width: 119px;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
     margin-right: 59px;
     margin-left: 30px;
 }
