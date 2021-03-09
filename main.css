@@ -33,6 +33,7 @@ header img {
     z-index: 19;
     top: 7px;
     left: 17px;
+    margin-top: -15px;
 }
 
 .lista1 { 
@@ -41,8 +42,8 @@ header img {
 
 .fundo {
     width: 101%;
-    height: 375px;
-    margin-top: -100px;
+    height: 430px;
+    margin-top: -132px;
     object-fit: cover;
 }
 
@@ -78,6 +79,7 @@ nav ul {
 nav ul:first-child {
     background-color: none;
     color: none;
+    margin-top: -13px;
 }
 
 nav ul li {
