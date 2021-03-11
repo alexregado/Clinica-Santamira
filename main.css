@@ -6,11 +6,11 @@
   }
 
 html, body {
-    margin-top: 14%;
     margin: 0;
     font-family: convergence !important;
-    background-color: rgba(255, 255, 255, 0.5); 
-    background-image: url(bg1.svg), 0.7;
+    background-image: url("images/header.png");
+    /* background: rgba(202, 202, 202, 0.548);  */
+    /* background-image: url(bg1.svg), 0.7; */
     min-height: 100%;
     max-width: 100%;
     min-height: stretch;
@@ -22,14 +22,12 @@ body {
     min-height: auto;
 }
 
-#start14 {
-    margin-top: 14%;
-}
 
 main{
     max-width: 1300px;
     margin: auto;
     background: aliceblue;
+    margin-top: 150px;
 }
 
 header img {
@@ -39,12 +37,14 @@ header img {
     height: 96px;
     z-index: 19;
     top: 7px;
-    margin-top: -15px;
+    margin-top: 3%;
     justify-content: center;
+    
 }
 
 .lista1 { 
     text-decoration: none;
+    margin-top: 3%;
 }
 
 .fundo {
@@ -53,40 +53,24 @@ header img {
     margin-top: -55px;
     margin-bottom: 95px;
     object-fit: cover;
+    margin-top: 8%;
 }
 
 #rectangle {
-    width: 100%;
     height: 11%;
     top: 0;
     background: rgba(255, 255, 255, 0.959);
-    margin-bottom: solid 1px red;
     position: fixed;
     z-index: 19282;
-    margin-left: -50px;
-    margin-right: 50px;
     overflow: hidden;
-  }
-
- .flex-menu{
-    position: fixed;
-    z-index: 19283;
     top: 19px;
-    left: 0%;
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-family: convergence;
     font-size: 1.75vw;
     font-weight: 600;
-
-}
-
-nav ul:first-child {
-    background-color: none;
-    color: none;
-    margin-top: -13px;
+    margin-top: -20px;
 }
 
 nav ul li {
@@ -94,14 +78,11 @@ nav ul li {
     /* background-color: rgba(3, 3, 3, 0.425);
     color: white;
     border-radius: 40px; */
-    width: 20%;
-    height: 20%;
-    margin: 3%;
     list-style-type: none;
 }
 
 nav ul li img {
-    width: 300px;
+    width: auto;
     height: auto;
 }
 
@@ -122,17 +103,9 @@ nav ul li img {
     text-decoration: underline;
     color: rgb(255, 0, 0);
     border: 5px red;
-}   
-
-nav b {
-    margin-right: 30px; 
-    margin-left: 30px;
 }
 
-nav:first-child {
-    margin-right: 50px; 
-    margin-left: 50px;
-}
+
 
 .frase {
     color: rgb(8, 0, 126);
@@ -140,7 +113,13 @@ nav:first-child {
     font-family: convergence;
     font-size: 35px;
     text-shadow: .2em .2em .3em silver;
-    margin-top: -140px;
+    width: 405px;
+    margin-top: -379px;
+    margin-left: 72px;
+}
+
+.frase-servicos {
+    margin-top: 200px;
 }
 
 /*
@@ -159,6 +138,7 @@ button {
 .text{
     margin-right: 0px;
     margin-left: 0px;
+    margin-top: 274px;
 }
 .text1 , .text2 , .text3 {
     text-align: center;
@@ -346,7 +326,8 @@ footer {
     text-align: left;  
     border-top: 4px solid rgba(255, 34, 34, 0.781); 
     min-width: 100%;
-    background-color: rgba(70, 70, 70, 0.248);
+    background-color: rgba(70, 70, 70, 0.248) !important;
+    z-index: 152545;
 } 
 
 

@@ -12,20 +12,18 @@
 
 
         <header>
-            <nav> 
-                <ul>
-                    <li><img src="f1.png" alt="Logo Santamira" width="400px" height="400px"></li>                    </li>
-                    <li><div class="lista1"><a class="link" href="index.html">Home</a></div></li>
-                    <li><div class="lista1"><a class="link" href="servicos.html">Serviços</a></div></li>
-                    <li><div class="lista1"><a class="link" href="contactos.html">Contactos</a></div></li>
-                    <li><div class="lista1"><a class="link" href="sobrenos.html">Sobre Nós</a></div></li>
-                </ul>
+            <nav>
+                <div id="rectangle">
+                    <div class="logo"><img src="f1.png" alt="Logo Santamira"></div>               
+                    <div class="lista1"><a class="link" href="index.html">Home</a></div>
+                    <div class="lista1"><a class="link" href="servicos.html">Serviços</a></div>
+                    <div class="lista1"><a class="link" href="contactos.html">Contactos</a></div>
+                    <div class="lista1"><a class="link" href="sobrenos.html">Sobre Nós</a></div>
+                </div>
             </nav>
         </header>
-        <div id="rectangle"></div>
 
-        <div id="start14">
-
+        <main>
         <div class="text_contactos"> Estamos sempre disponíveis para falar consigo, seja para marcar uma consulta ou para tirar alguma dúvida.
             Tem alguma dúvida sobre o seu tratamento, tem dores ou simplesmente precisa de marcar uma consulta? Pode ligar, enviar mensagem ou e-mail 
             e vamos tentar responder o mais brevemente possível! <br>
@@ -56,7 +54,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1493.2470009772321!2d-8.61546930301854!3d41.53689999781462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDMyJzEyLjgiTiA4wrAzNic1My4xIlc!5e0!3m2!1spt-PT!2spt!4v1593876370006!5m2!1spt-PT!2spt" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
                   
-        
+        </main>
         <footer>
             <div class="alignfooter">
             <div class="morada">
@@ -84,20 +82,11 @@
                 <h6>&#169;All content to Clínica Santamira 2020 | Designed by Alex Regado</h6>
             </div>
         </footer>
-
+        <script src="main.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <script>
-            function hide(id) {
-                var newState= "";
-           
-                if (document.getElementById(id).style.height === 0)  {newState = "auto";}
-                else {newState = "hidden";}
-           
-               document.getElementById(id).style.visibility = newState;
-           }
-        </script>
         </div>
     </body>
+
 </html> 

@@ -12,21 +12,19 @@
 
 
         <header>
-            <nav> 
-                <ul>
-                    <li><img src="f1.png" alt="Logo Santamira" width="400px" height="400px"></li>                    </li>
-                    <li><div class="lista1"><a class="link" href="index.html">Home</a></div></li>
-                    <li><div class="lista1"><a class="link" href="servicos.html">Serviços</a></div></li>
-                    <li><div class="lista1"><a class="link" href="contactos.html">Contactos</a></div></li>
-                    <li><div class="lista1"><a class="link" href="sobrenos.html">Sobre Nós</a></div></li>
-                </ul>
+            <nav>
+                <div id="rectangle">
+                    <div class="logo"><img src="f1.png" alt="Logo Santamira"></div>               
+                    <div class="lista1"><a class="link" href="index.html">Home</a></div>
+                    <div class="lista1"><a class="link" href="servicos.html">Serviços</a></div>
+                    <div class="lista1"><a class="link" href="contactos.html">Contactos</a></div>
+                    <div class="lista1"><a class="link" href="sobrenos.html">Sobre Nós</a></div>                
+                </div>
             </nav>
         </header>
-        <div id="rectangle"></div>
 
-     <div id="start14">
 
-        
+        <main>
         <div class="teamtitle34"> A equipa Santamira </div>
         <div class="equipa1">
             <img src="dentist.jpg" alt="Drª Sonia" class="sonia"> 
@@ -74,7 +72,7 @@
                 </div>
         </div>
 
-
+        </main>
         <footer>
             <div class="alignfooter">
             <div class="morada">
@@ -102,7 +100,8 @@
                 <h6>&#169;All content to Clínica Santamira 2020 | Designed by Alex Regado</h6>
             </div>
         </footer>
-
+        <script src="main.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -112,17 +111,6 @@
 
             function plusDivs(n) {
                 showDivs(slideIndex += n);
-            }
-
-            function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = x.length} ;
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex-1].style.display = "block";
             }
         </script>
     </div>
