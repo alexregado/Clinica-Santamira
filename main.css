@@ -5,7 +5,7 @@
     src: url(font/rax5HiePvdgXPmmMHcIPYShdu08.woff2);
   }
 
-html, body {
+html {
     margin: 0;
     font-family: convergence !important;
     background-image: url("images/header.png");
@@ -14,12 +14,13 @@ html, body {
     min-height: 100%;
     max-width: 100%;
     min-height: stretch;
-
 }
 
 body {
+    margin: 0px;
     margin-top: 0;
     min-height: auto;
+    background-color: none !important;
 }
 
 
@@ -328,6 +329,7 @@ footer {
     min-width: 100%;
     background-color: rgba(70, 70, 70, 0.248) !important;
     z-index: 152545;
+    background-color: grey !important;
 } 
 
 
@@ -337,8 +339,8 @@ footer p {
 }
 
 footer h4 {
-    font-size: 13px;
-    font-weight: 100 !important;
+    font-size: 19px;
+    font-weight: 600 !important;
     margin: 0;
     line-height: 20px;
     margin-bottom: 5px;
@@ -355,18 +357,25 @@ footer h4 {
 
 .alignfooter
     .morada, .contactos, .footerimg {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 100;
     border: 0px;
     margin: 0px 0px;
     line-height: 0.5;
     width: 30%;
     margin-top: 0; 
+    
 }
 
 .contactos {
     line-height: 0.5;
     margin-left: 30px;
+    font-size: 20px;
+}
+
+.contactos p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 footer img {  
@@ -382,6 +391,7 @@ footer img {
 
 footer h4 {
     margin-top: 8px;
+    font-style: initial;
 }
 
 footer h5 {
@@ -398,7 +408,9 @@ footer h6 {
     width: 100%;
     height: 22px;
     text-align: center;
-    background-color: grey;
+    border-top: 2px solid rgba(255, 34, 34, 0.781);
+    background-color: black;
+    color: white;
 }
 
 
@@ -560,14 +572,14 @@ Página Contactos */
     text-align: center;
     font-size: 19px;
     line-height: 20px;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8px;
 }
 
 .text_contactos {
-    margin-top: 121px;
+    margin-top: 40px;
 }
 
 @media screen and (min-width: 800px) {
