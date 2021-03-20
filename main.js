@@ -5,4 +5,4 @@ setInterval( () => {
     $('#rectangle').css('width', mainw);
     $('#rectangle').css('margin-left', mleft);
     $('#rectangle').css('margin-right', mright);
-    // console.log(mainw, mright, mleft)
+});
